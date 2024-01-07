@@ -148,32 +148,50 @@
     border-radius: 8px;
     background: #F00;
     transition: 0.1s;
+    
 }
 
 
 .main-div{
     display: flex;
     gap: 5px;
+    padding-top: 100px;
 }
 
 .div1{
 
-    background-color: #F00;
     width: 33.33%;
-    padding: 5px;
+    padding-left: 50px;
+    padding-top: 130px;
 
 
 }
 .div2{
-
-    background-color: #F00;
+    border-radius: 300px;
     width: 33.33%;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    width: 463px;
+    height: 463px;
+    flex-shrink: 0;
 
 }
+#middle-img{
+
+    width: 364.844px;
+    height: 364.844px;
+    flex-shrink: 0;
+    border-radius: 364.844px;
+    padding: 50px;
+    
+
+}
+
 .div3{
 
-    background-color: #F00;
-    width: 33.33%;
+    max-width: 33.33%;
+    padding-left: 50px;
+    padding-top: 130px;
 
 }
 
