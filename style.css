@@ -2,7 +2,7 @@
 
 .header{
     background-image: url('images/Banner\ Image.png') ;
-    max-width: 100%;
+    max-width: 1320px;
     height: 600px;
     border-radius: 5px;
     background-size: cover;
@@ -39,7 +39,7 @@
     font-family: Inter;
     font-size: 88px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600px;
 }
 .offer-title{
     color: #F00;
@@ -61,10 +61,10 @@
     padding-top: 0px;
 }
 .new-year-photo{
-    max-width: 100%;
+    max-width: 1320px;
     height: 500px;
     flex-shrink: 0;
-    padding-left: 300px;
+    padding-left: 280px;
     padding-bottom: 100px;
 
 }
@@ -239,6 +239,112 @@
     font-weight: 500;
     line-height: 32px; /* 160% */
     width: px;
+}
+
+.discaount{
+
+    width: 1320px;
+    height: 600px;
+
+}
+
+.photo1{
+    background-image: url('images/Group\ 75.png');
+    background-position: left bottom
+}
+
+
+.discaount-img{
+
+    background-position: bottom;
+
+}
+
+.portfolio{
+
+    padding-top: 130px;
+
+}
+.portfolio h5{
+
+    color: #F00;
+
+
+}
+
+.subscribe img{
+
+    margin-left: 45%;
+    padding-top: 130px;
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+
+}
+.subscribe h1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.subscribe p{
+
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 32px; /* 160% */
+}
+
+
+.footer-container{
+
+    background-color: #070211;
+    width: 1320px;
+    height: 609px;
+    flex-shrink: 0;
+
+
+}
+
+.adress{
+
+    display: flex;
+    color: white;
+    padding-left: 30px;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-top: 30px;
+
+}
+
+
+.social img{
+
+    padding-left: 30px;
+    justify-content: center;
+
+
+}
+.rights p{
+
+    color: white;
+    display: inline;
+    padding-top: 30px;
+
+
+}
+.hr-opacity{
+
+color: #0f0f0f;
+
 }
 
 
