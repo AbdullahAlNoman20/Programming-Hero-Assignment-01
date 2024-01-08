@@ -8,6 +8,7 @@
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
+    background-color:white;
      
 }
 .title{
@@ -243,20 +244,46 @@
 
 .discaount{
 
-    width: 1320px;
-    height: 600px;
+   display: flex;
+   gap: 10px;
 
 }
 
 .photo1{
-    background-image: url('images/Group\ 75.png');
-    background-position: left bottom
+    
+    height: auto;
+    width: 650px;
+
+    
+
 }
+.photo2{
+    
+    height: auto;
+    width: 650px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+
+
+}
+.photo2 img{
+
+    padding-left: 230px;
+   
+
+} 
+
+.red-baar-img{
+
+    margin-top: 0px;
+}
+
 
 
 .discaount-img{
 
     background-position: bottom;
+    position: fixed;
 
 }
 
@@ -266,11 +293,68 @@
 
 }
 .portfolio h5{
-
     color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 
+.portfolio h1{
+
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.portfolio p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+
+
+.photo-container{
+
+    width: 1320px;
+    height: auto;
+    
+    
+}
+
+.first-div{
+
+    
+    width: 1320px;
+    height: auto;
+    display: flex;
+    gap: 10px;
 
 }
+.second-div{
+    width: 1320px;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
 
 .subscribe img{
 
@@ -303,13 +387,42 @@
     line-height: 32px; /* 160% */
 }
 
+.gmail-input{
+ 
+    height: 35px;
+    width: 250px;
+    margin-left: 40%;
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px 0px 0px 10px;
+    color: #a6a6a6;
+    border-color: #07021100;
+    padding-left: 5px;
+    margin-right: 0px;
+    
+    
+
+}
+.subscribe-btn{
+
+    color: white;
+    height: 40px;
+    width: 100px;
+    background-color: #F00;
+    border-radius: 0px 10px 10px 0px;
+    border-color: #0f0f0f00;
+    margin-left: 0px;
+    
+
+}
+
 
 .footer-container{
 
     background-color: #070211;
     width: 1320px;
-    height: 609px;
+    height: 330px;
     flex-shrink: 0;
+    margin-top: 130px;
 
 
 }
@@ -333,11 +446,14 @@
 
 
 }
-.rights p{
+.rights{
 
+    display: flex;
     color: white;
-    display: inline;
     padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
 
 
 }
