@@ -419,7 +419,7 @@
 .footer-container{
 
     background-color: #070211;
-    width: 1320px;
+    width: 1250px;
     height: 330px;
     flex-shrink: 0;
     margin-top: 130px;
@@ -441,9 +441,12 @@
 
 .social img{
 
-    padding-left: 30px;
-    justify-content: center;
+    padding-left: 20px;
+}
 
+.icon{
+
+    margin-left: 37%;
 
 }
 .rights{
