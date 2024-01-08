@@ -334,7 +334,7 @@ margin-right: 80px;
 
     width: 400px;
     height: 300px;
-    border: 2px solid rgb(108, 0, 0);
+    border: 2px solid rgba(108, 0, 0, 0);
     border-radius: 13px;
     box-shadow: 4px 7px 7px 0px #00000042;
     cursor: pointer;
