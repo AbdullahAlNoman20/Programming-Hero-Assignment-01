@@ -254,54 +254,39 @@ body{
     padding-left: 190px;
 }
 
-.discaount{
+.banner{
 
-   display: flex;
-   gap: 10px;
-
-}
-
-.photo1{
-    
     height: auto;
-    width: 650px;
-
-    
-
-}
-.photo2{
-    
-    height: auto;
-    width: 650px;
-    padding-top: 0px;
+    background-color: #FFF;
+    margin-top: 130px;
     margin-bottom: 0px;
 
+}
+.girl{
+float: right;
+width: 40%;
+margin-top: 20px;
+margin-right: 80px;
 
 }
-.photo2 img{
-
-    padding-left: 230px;
-   
-
-} 
-
-.red-baar-img{
-
-    margin-top: 0px;
+.box{
+    width: 50%;
+    position: relative;
+    left: 80px;
+    bottom: -200px;
 }
 
+.discount-logo{
 
-
-.discaount-img{
-
-    background-position: bottom;
-    position: fixed;
+    position: relative;
+    top: -750px;
+    left: 600px;
 
 }
 
 .portfolio{
 
-    padding-top: 130px;
+    padding-top: 0px;
 
 }
 .portfolio h5{
@@ -473,12 +458,6 @@ body{
 .hr-opacity{
 
 color: #0f0f0f;
-
-}
-
-.test{
-
-    display: flex;
 
 }
 
